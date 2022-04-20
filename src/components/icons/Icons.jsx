@@ -33,27 +33,27 @@ const Icons = () => {
           )}
         </div>
 
-        <div id="3" onMouseOver={handleMouse}>
+        <div id="2" onMouseOver={handleMouse}>
           <img style={{ width: "50px", margin: "18px" }} src={mail} alt="" />
         </div>
 
-        <div onMouseOver={handleMouse}>
-          <img
-            style={{ width: "50px", margin: "18px" }}
-            src={growingUpMan}
-            alt=""
-          />
+        <div id="3" onMouseOver={handleMouse}>
+          {data?.gender === "male" ? (
+            <img style={{ width: "50px", margin: "18px" }} src={growingUpMan} alt="" />
+          ) : (
+            <img style={{ width: "50px", margin: "18px" }} src={growingUpWoman} alt="" />
+          )}
         </div>
 
-        <div onMouseOver={handleMouse}>
+        <div id="4" onMouseOver={handleMouse}>
           <img style={{ width: "50px", margin: "18px" }} src={map} alt="" />
         </div>
 
-        <div onMouseOver={handleMouse}>
+        <div id="5" onMouseOver={handleMouse}>
           <img style={{ width: "50px", margin: "18px" }} src={phone} alt="" />
         </div>
 
-        <div onMouseOver={handleMouse}>
+        <div id="6" onMouseOver={handleMouse}>
           <img style={{ width: "50px", margin: "18px" }} src={padlock} alt="" />
         </div>
       </div>
