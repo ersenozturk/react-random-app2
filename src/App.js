@@ -73,7 +73,7 @@ function App() {
     <main>
 
       <div className="block bcg-orange">
-        <img src={cwSvg} alt="cw" id="cw" />
+      <h1>RANDOM USER APP</h1>
       </div>
       
       <div className="block">

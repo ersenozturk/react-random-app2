@@ -67,6 +67,14 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+h1 {
+  color: #9e4d8d;
+  font-family: 'Nunito', sans-serif;
+  padding-top: 15px;
+}
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-3);
